@@ -1,0 +1,682 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 21px;
+    padding-bottom: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+
+.navigation {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    padding-right: 12px;
+    padding-left: 27px;
+    color: black;
+}
+
+.image {
+    display: flex;
+    border: 21px;
+    padding-left: 300px;
+    padding-right: 222px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 25px;
+    color: black;
+}
+
+
+/* SECTIONCONTENT  */
+
+div#TEXT {
+    text-align: center;
+}
+
+.trail {
+    /* padding: 504px 717px 173px 54px; */
+    margin-top: -244px;
+    margin-left: -654px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.durable {
+    margin-top: 11px;
+    margin-left: -995px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.buttom {
+    display: flex;
+    margin-top: 17px;
+    margin-left: -888px;
+    flex-direction: row;
+}
+
+.SM {
+    display: flex;
+    padding: 17px 45px 15px 46px;
+    margin-right: 24px;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+
+.SW {
+    display: flex;
+    padding: 17px 45px 15px 46px;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+
+
+/* FAVORITE */
+
+.favorite {
+    padding: 200px 615px 32px 615px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.Choose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    padding: 0 457px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000;
+}
+
+.footwear {
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    padding: 34px 102px;
+}
+
+.buttom2 {
+    position: absolute;
+    margin-top: 150px;
+    padding-right: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttom3 {
+    position: absolute;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttom4 {
+    position: absolute;
+    margin-top: 150px;
+    padding-left: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SM1 {
+    width: 220PX;
+    height: 50px;
+    background-color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+
+.wool {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    padding-left: 142px;
+    padding-right: 114px;
+    padding-top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.wool__WR {
+    width: 363px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #D3D4D5;
+}
+
+.wool__TR {
+    width: 363px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #D3D4D5;
+}
+
+.wool__WRM {
+    width: 363px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #D3D4D5;
+}
+
+.cl {
+    width: 1440px;
+    padding-top: 11px;
+}
+
+.simbol {
+    display: flex;
+    padding-left: 142px;
+    padding-right: 450px;
+    justify-content: space-between;
+}
+
+.cozy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #212A2F;
+}
+
+.CS {
+    padding-left: 180px;
+}
+
+.LAB {
+    padding-left: 60px;
+}
+
+.RRS {
+    padding-right: 320px;
+}
+
+
+/* SEASOM */
+
+.foot {
+    padding-top: 142px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 52px;
+}
+
+.content__season {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.content__soft {
+    padding-top: 54px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.buttom5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    padding-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.SM4 {
+    background: #212A2F;
+    padding: 17px 60px 15px 60px;
+}
+
+.SW4 {
+    background: #212A2F;
+    padding: 17px 45px 15px 46px;
+}
+
+
+/* COLLECTION */
+
+.title {
+    padding: 119px 1014px 30px 38px;
+    width: 1440px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.allcollection {
+    width: 1440px;
+    max-width: 100%;
+    padding: 0px 0px 0px 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.collection {
+    width: 1300px;
+}
+
+.collection__name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.collection__footnote {
+    width: 300px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+
+/* MADEFROM */
+
+.content__madefrom {
+    padding-top: 44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.content__wecraft {
+    width: 665px;
+    padding-top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.buttom6 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.SH {
+    background: #212A2F;
+    padding: 17px 110px 15px 110px;
+}
+
+
+/* NEWARRIVALS */
+
+
+/* REVERSING */
+
+.content__reversing {
+    padding-top: 52px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.content__reducing {
+    width: 665px;
+    padding-top: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.OS {
+    background: #212A2F;
+    padding: 17px 110px 15px 110px;
+}
+
+
+/* STORIES */
+
+
+/* WANTFIRST */
+
+.content__wantfirst {
+    padding-top: 186px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.content__join {
+    width: 823px;
+    padding-top: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.buttom8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    padding-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.22);
+}
+
+.enter {
+    background: #FFFFFF;
+    padding: 17px 80px 15px 80px;
+}
+
+.sign {
+    color: white;
+    background: #212A2F;
+    padding: 17px 80px 15px 80px;
+}
+
+.note {
+    padding-top: 24px;
+}
+
+
+/* FOOTER */
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main {
+    width: 1440px;
+    margin-top: 58px;
+    background-color: #212A2F;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.links {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mainLink {
+    width: 1440px;
+    padding-left: 54px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.links2 {
+    margin-top: -160px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLink2 {
+    width: 1440px;
+    padding-left: 386px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.links3 {
+    margin-top: -220px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLink3 {
+    width: 1440px;
+    padding-left: 720px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.follow {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    padding-top: 225px;
+    padding-left: 54px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.exclusive {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+}
+
+.exl {
+    display: flex;
+    flex-direction: row;
+    width: 440px;
+    padding-top: 21px;
+    padding-left: 54px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.allbirds {
+    padding-top: 126px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
